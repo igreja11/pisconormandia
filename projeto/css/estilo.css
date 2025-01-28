@@ -1,0 +1,50 @@
+*{
+	box-sizing:border-box;
+	margin: 0;
+	padding: 0;
+}
+
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: darkblue  ;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 22px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: green;}
+
+ul.topnav li a.active {background-color:  black;}
+
+ul.topnav li.right {float: right;}
+
+.container, div.container-fluid {
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+footer{
+	text-align: center;	
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin- : 20%;
+	background-color: greenyellow;
+}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
